@@ -1,0 +1,37 @@
+# here we'll practice a few elements. mostly review for myself. 
+
+#a simple function from memory is
+
+def turtles():
+    a = 22
+    b = 29
+    return a * b
+
+#if we wanted to change the values of a & b from above. well we could use parameters. parameters act as place holders.
+
+def turtles(a,b):
+    print(a*b)
+  
+turtles(12,2) #here we are now 'summoning' the function to take action
+
+#below is seperate from above. this is pulled from a tutroial. but good to always practice.
+
+import random 
+from sty
+
+def generateRGB():
+    red = random.randint(0, 256)
+    blue = random.randint(0, 256)
+    green = random.randint(0, 256)
+    return red, blue, green        #this should return a tuple
+
+#what i am understanding here is that it is generating numerical values and assigining them to a variable that could
+#perhaps be utilized later.
+
+def generateColor(red, blue, green):
+    return fg(red, blue, green)
+
+red, blue, green = generateRGB()        #it is assign the exact same tuple it is returning from above.
+color = generateColor(red, blue, green)
+
+print(color, "Heck yea this worked", fg.rs)
